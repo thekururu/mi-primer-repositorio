@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarjeta Sola Bronce</title>
+  <style>
+    body {
+      background-color: #b30000; /* Rojo fuerte */
+      font-family: Arial, sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .feature-card {
+      background-color: #800000; /* Rojo oscuro/bronce */
+      border-radius: 12px;
+      padding: 2rem;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .feature-icon {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 1rem;
+      fill: none;
+      stroke: #ffd700; /* Dorado */
+      stroke-width: 2.5;
+    }
+
+    .feature-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="feature-card">
+    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <!-- Círculo -->
+      <circle cx="32" cy="32" r="28" />
+      <!-- Estrella (decorativo y random) -->
+      <polygon points="32,16 36,28 48,28 38,36 42,48 32,40 22,48 26,36 16,28 28,28" />
+    </svg>
+    <h3 class="feature-title">Sola Bronce</h3>
+  </div>
+</body>
+</html>
+
